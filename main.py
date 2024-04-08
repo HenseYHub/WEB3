@@ -29,13 +29,13 @@ print(f'number of current chain is {web3.eth.chain_id}')
 wallet_address = Web3.to_checksum_address('0x6ba4644463dc53a227653f35c86e8aca64fdebaa')
 balance = web3.eth.get_balance(wallet_address)
 print(f'balance of {wallet_address} = {balance}')
-#
+
 # # перевод в разные системы измерения
 # ether_balance = Web3.from_wei(balance, 'ether')
 # print(ether_balance)
 # print(Web3.from_wei(balance, 'qwei'))
 # print(Web3.to_wei(ether_balance, 'ether'))
-#
-# # получение приватного ключа из сид фразы
-# private_key = get_private_from_seed(seed=seed)
-# print(private_key)
+
+# получение приватного ключа из сид фразы
+private_key = get_private_from_seed(seed=seed)
+print(private_key)

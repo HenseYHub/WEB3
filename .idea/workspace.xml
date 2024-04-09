@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82e44b0-61a2-475a-a885-e44ba7d65218" name="Changes" comment="Cliend, models write">
-      <change afterPath="$PROJECT_DIR$/abis/woofi.json" afterDir="false" />
+    <list default="true" id="d82e44b0-61a2-475a-a885-e44ba7d65218" name="Changes" comment="main2, woofi/json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/woofli.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/woofli.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +40,9 @@
         <option name="url" value="git@github.com:HenseYHub/WEB3.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -150,13 +155,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712582842650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main2, woofi/json">
+      <option name="closed" value="true" />
+      <created>1712606411272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712606411272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Web3 Start" />
     <MESSAGE value="Web3 main file and json" />
     <MESSAGE value="Cliend, models write" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cliend, models write" />
+    <MESSAGE value="main2, woofi/json" />
+    <option name="LAST_COMMIT_MESSAGE" value="main2, woofi/json" />
   </component>
 </project>

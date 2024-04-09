@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from decimal import Decimal
 from typing import Union
 
+
 @dataclass
 class DefaultABIs:
     """
@@ -86,7 +87,7 @@ class TokenAmount:
     Ether: Decimal
     decimals: int
 
-    def __init__(self, amount: Union[int, float, str, Decimal], decimals: int = 18, wei: bool = False) ->None:
+    def __init__(self, amount: Union[int, float, str, Decimal], decimals: int = 18, wei: bool = False) -> None:
         if wei:
             self.Wei: int = amount
             self.Ether: Decimal = Decimal(str(amount)) // 10 ** decimals

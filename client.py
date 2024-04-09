@@ -143,7 +143,7 @@ class Client:
     def get_eth_price(self, token='ETH'):
         token = token.upper()
         print(f'{self.address} | getting {token} price')
-        response = requests.get(f'https://api.binance.com/api/v3/={token}USDT')
+        response = requests.get(f'https://api.binance.com/api/v3/depth?limit=1&symbol={token}USDT')
         if response.status_code != 200:
             print(f'code: {response.status_code} | json: {response.json()}')
             return None

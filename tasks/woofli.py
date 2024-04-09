@@ -9,11 +9,11 @@ from models import TokenAmount
 
 
 class WooFi:
-    eth_address = Web3.to_checksum_address('0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE')
-    usdc_address = Web3.to_checksum_address('0xaf88d065e77c8cC2239327C5EDb3A432268e5831')
+    eth_address = Web3.to_checksum_address('Address')
+    usdc_address = Web3.to_checksum_address('Address')
 
     router_abi = read_json(WOOFI_ABI)
-    router_address = Web3.to_checksum_address('0x9aed3a8896a85fe9a8cac52c9b402d092b629a30')
+    router_address = Web3.to_checksum_address('routet_adress')
 
     def __init__(self, client: Client):
         self.client = client

@@ -13,7 +13,7 @@ class WooFi:
     usdc_address = Web3.to_checksum_address('Address')
 
     router_abi = read_json(WOOFI_ABI)
-    router_address = Web3.to_checksum_address('routet_adress')
+    router_address = Web3.to_checksum_address('router_address')
 
     def __init__(self, client: Client):
         self.client = client
